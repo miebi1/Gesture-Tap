@@ -2,7 +2,7 @@
 var hammerTap = new Hammer(document.getElementById('gestureBox'));
 
 // Display alert for tap gesture
-alert("Tap to change the box color.");
+alert("Tap the box that appears next to randomly change the box color.");
 
 // Unique gesture interaction for tap
 hammerTap.on("tap", function () {
